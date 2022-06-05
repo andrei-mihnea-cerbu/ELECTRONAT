@@ -1,0 +1,791 @@
+# depslib dependency file v1.0
+1638483771 source:c:\mingw\bin\electronuaic\electron\electronat\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+	<winuser.h>
+	"startup_page.h"
+	"workplace_page.h"
+	"menu_selection.h"
+	"stare_table.h"
+	"new_project_name_reading_window.h"
+
+1642197535 source:d:\electron\electronat\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+	<winuser.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<filesystem>
+	"startup_page.h"
+	"workplace_page.h"
+	"menu_selection.h"
+	"stare_table.h"
+	"new_project_name_reading_window.h"
+	"drawing_components.h"
+	"messages_panels_main_menu.h"
+	"open_save.h"
+	"change_color_panel.h"
+	"messages_log_panel.h"
+	"edit_component_value.h"
+	"zoom_rotate_fader_workplace.h"
+	"choose_from_two_options.h"
+	"functii_auxiliare.h"
+
+1637875934 d:\electron\electronat\workbench.h
+
+1637885026 d:\electron\electronat\frontpage\frontpage.h
+
+1637920586 c:\mingw\bin\electronuaic\electron\electronat\frontpage\frontpage.h
+
+1637922089 c:\mingw\bin\electronuaic\electron\electronat\resistor.h
+
+1637922469 c:\mingw\bin\electronuaic\electron\electronat\capacitor.h
+
+1637922674 c:\mingw\bin\electronuaic\electron\electronat\fuse.h
+
+1637923114 c:\mingw\bin\electronuaic\electron\electronat\dioda.h
+
+1637954017 c:\mingw\bin\electronuaic\electron\electronat\bulb.h
+
+1637954299 c:\mingw\bin\electronuaic\electron\electronat\ampermeter.h
+
+1638484982 c:\mingw\bin\electronuaic\electron\electronat\components.h
+	"workplace_page.h"
+
+1638033748 c:\mingw\bin\electronuaic\electron\electronat\startpage.h
+	<iostream>
+	<algorithm>
+
+1638311561 c:\mingw\bin\electronuaic\electron\electronat\startup_page.h
+
+1638210614 c:\mingw\bin\electronuaic\electron\electronat\menubar.h
+
+1641654066 source:g:\electron\electronat\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+	<winuser.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<filesystem>
+	"startup_page.h"
+	"workplace_page.h"
+	"menu_selection.h"
+	"stare_table.h"
+	"new_project_name_reading_window.h"
+	"drawing_components.h"
+	"messages_panels_main_menu.h"
+	"open_save.h"
+	"change_color_panel.h"
+	"messages_log_panel.h"
+	"edit_component_value.h"
+	"zoom_rotate_fader_workplace.h"
+
+1640635416 g:\electron\electronat\components.h
+	"workplace_page.h"
+
+1638226333 g:\electron\electronat\menubar.h
+
+1640848827 g:\electron\electronat\startup_page.h
+
+1638261682 g:\electron\electronat\menu_bar.h
+	"components.h"
+
+1641653516 g:\electron\electronat\menu_selection.h
+
+1641654680 g:\electron\electronat\workplace_page.h
+	"drawing_components.h"
+	"stare_table.h"
+	"zoom_rotate_fader_workplace.h"
+
+1638311561 c:\mingw\bin\electronuaic\electron\electronat\workplace_page.h
+	"components.h"
+
+1638311561 c:\mingw\bin\electronuaic\electron\electronat\menu_selection.h
+	"change_color_panel.h"
+
+1638483474 c:\mingw\bin\electronuaic\electron\electronat\stare_table.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+
+1641651956 g:\electron\electronat\stare_table.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	<bits/stdc++.h>
+	"drawing_components.h"
+
+1641593021 g:\electron\electronat\change_color_panel.h
+	"startup_page.h"
+	"workplace_page.h"
+
+1638311561 c:\mingw\bin\electronuaic\electron\electronat\change_color_panel.h
+	"startup_page.h"
+	"workplace_page.h"
+
+1641651290 g:\electron\electronat\new_project_name_reading_window.h
+	<winuser.h>
+
+1638483138 c:\mingw\bin\electronuaic\electron\electronat\new_project_name_reading_window.h
+
+1640795315 source:d:\electronuaic\electron\electronat\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+	<winuser.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<filesystem>
+	"startup_page.h"
+	"workplace_page.h"
+	"menu_selection.h"
+	"stare_table.h"
+	"new_project_name_reading_window.h"
+	"drawing_components.h"
+	"messages_panels_main_menu.h"
+	"open_save.h"
+
+1638907797 d:\electronuaic\electron\electronat\startup_page.h
+
+1640795062 d:\electronuaic\electron\electronat\workplace_page.h
+	"components.h"
+	"stare_table.h"
+
+1639340903 d:\electronuaic\electron\electronat\components.h
+	"workplace_page.h"
+
+1640640597 d:\electronuaic\electron\electronat\menu_selection.h
+	"change_color_panel.h"
+
+1638311561 d:\electronuaic\electron\electronat\change_color_panel.h
+	"startup_page.h"
+	"workplace_page.h"
+
+1640797610 d:\electronuaic\electron\electronat\stare_table.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	<bits/stdc++.h>
+	"drawing_components.h"
+
+1638920570 d:\electronuaic\electron\electronat\new_project_name_reading_window.h
+	<winuser.h>
+
+1638545034 d:\electronuaic\electron\electronat\table_status.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+
+1639527949 d:\electronuaic\electron\electronat\drawing_components.h
+
+1638739266 g:\electron\electronat\table_status.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+
+1641593021 g:\electron\electronat\drawing_components.h
+	<graphics.h>
+	<windows.h>
+	<cmath>
+	<math.h>
+
+1642197256 d:\electron\electronat\startup_page.h
+	"open_save.h"
+	"functii_auxiliare.h"
+
+1642198066 d:\electron\electronat\workplace_page.h
+	"drawing_components.h"
+	"stare_table.h"
+	"zoom_rotate_fader_workplace.h"
+	"functii_auxiliare.h"
+
+1638739266 d:\electron\electronat\components.h
+	"workplace_page.h"
+
+1642186267 d:\electron\electronat\menu_selection.h
+
+1642186306 d:\electron\electronat\change_color_panel.h
+	"startup_page.h"
+	"workplace_page.h"
+
+1638739266 d:\electron\electronat\table_status.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+
+1642186244 d:\electron\electronat\new_project_name_reading_window.h
+	<winuser.h>
+
+1642186294 d:\electron\electronat\drawing_components.h
+	<graphics.h>
+	<windows.h>
+	<cmath>
+	<math.h>
+
+1638913473 g:\electron\electronat\error_panels_main_menu.h
+	<windows.h>
+
+1641655289 g:\electron\electronat\messages_panels_main_menu.h
+	<windows.h>
+
+1638922837 d:\electronuaic\electron\electronat\messages_panels_main_menu.h
+	<windows.h>
+
+1640165519 d:\electronuaic\electron\electronat\open_save.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	"drawing_components.h"
+
+1641419126 g:\electron\electronat\open_save.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	"drawing_components.h"
+
+1641593333 g:\electron\electronat\messages_log_panel.h
+
+1641651232 g:\electron\electronat\edit_component_value.h
+	<winuser.h>
+
+1641593021 g:\electron\electronat\zoom_rotate_fader_workplace.h
+
+1642197415 d:\electron\electronat\stare_table.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	<bits/stdc++.h>
+	"drawing_components.h"
+	"functii_auxiliare.h"
+
+1641659499 d:\electron\electronat\messages_log_panel.h
+
+1641721335 d:\electron\electronat\zoom_rotate_fader_workplace.h
+
+1642186249 d:\electron\electronat\messages_panels_main_menu.h
+	<windows.h>
+
+1642190639 d:\electron\electronat\open_save.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	"drawing_components.h"
+	"stare_table.h"
+
+1642186279 d:\electron\electronat\edit_component_value.h
+	<winuser.h>
+
+1642186299 d:\electron\electronat\choose_from_two_options.h
+
+1642188519 source:c:\users\user\downloads\electronat\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+	<winuser.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<filesystem>
+	"startup_page.h"
+	"workplace_page.h"
+	"menu_selection.h"
+	"stare_table.h"
+	"new_project_name_reading_window.h"
+	"drawing_components.h"
+	"messages_panels_main_menu.h"
+	"open_save.h"
+	"change_color_panel.h"
+	"messages_log_panel.h"
+	"edit_component_value.h"
+	"zoom_rotate_fader_workplace.h"
+	"choose_from_two_options.h"
+
+1642188654 c:\users\user\downloads\electronat\startup_page.h
+	"open_save.h"
+
+1642189610 c:\users\user\downloads\electronat\open_save.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	"drawing_components.h"
+	"stare_table.h"
+
+1642186294 c:\users\user\downloads\electronat\drawing_components.h
+	<graphics.h>
+	<windows.h>
+	<cmath>
+	<math.h>
+
+1642189959 c:\users\user\downloads\electronat\stare_table.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	<bits/stdc++.h>
+	"drawing_components.h"
+
+1642188698 c:\users\user\downloads\electronat\workplace_page.h
+	"drawing_components.h"
+	"stare_table.h"
+	"zoom_rotate_fader_workplace.h"
+
+1641721335 c:\users\user\downloads\electronat\zoom_rotate_fader_workplace.h
+
+1642186267 c:\users\user\downloads\electronat\menu_selection.h
+
+1642186244 c:\users\user\downloads\electronat\new_project_name_reading_window.h
+	<winuser.h>
+
+1642186249 c:\users\user\downloads\electronat\messages_panels_main_menu.h
+	<windows.h>
+
+1642186306 c:\users\user\downloads\electronat\change_color_panel.h
+	"startup_page.h"
+	"workplace_page.h"
+
+1641659499 c:\users\user\downloads\electronat\messages_log_panel.h
+
+1642186279 c:\users\user\downloads\electronat\edit_component_value.h
+	<winuser.h>
+
+1642186299 c:\users\user\downloads\electronat\choose_from_two_options.h
+
+1642191142 source:c:\users\user\desktop\electronat\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+	<winuser.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<filesystem>
+	"startup_page.h"
+	"workplace_page.h"
+	"menu_selection.h"
+	"stare_table.h"
+	"new_project_name_reading_window.h"
+	"drawing_components.h"
+	"messages_panels_main_menu.h"
+	"open_save.h"
+	"change_color_panel.h"
+	"messages_log_panel.h"
+	"edit_component_value.h"
+	"zoom_rotate_fader_workplace.h"
+	"choose_from_two_options.h"
+	"functii_auxiliare.h"
+
+1642191154 c:\users\user\desktop\electronat\startup_page.h
+	"open_save.h"
+	"functii_auxiliare.h"
+
+1642190639 c:\users\user\desktop\electronat\open_save.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	"drawing_components.h"
+	"stare_table.h"
+
+1642186294 c:\users\user\desktop\electronat\drawing_components.h
+	<graphics.h>
+	<windows.h>
+	<cmath>
+	<math.h>
+
+1642191150 c:\users\user\desktop\electronat\stare_table.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	<bits/stdc++.h>
+	"drawing_components.h"
+	"functii_auxiliare.h"
+
+1642191162 c:\users\user\desktop\electronat\workplace_page.h
+	"drawing_components.h"
+	"stare_table.h"
+	"zoom_rotate_fader_workplace.h"
+	"functii_auxiliare.h"
+
+1641721335 c:\users\user\desktop\electronat\zoom_rotate_fader_workplace.h
+
+1642186267 c:\users\user\desktop\electronat\menu_selection.h
+
+1642186244 c:\users\user\desktop\electronat\new_project_name_reading_window.h
+	<winuser.h>
+
+1642186249 c:\users\user\desktop\electronat\messages_panels_main_menu.h
+	<windows.h>
+
+1642186306 c:\users\user\desktop\electronat\change_color_panel.h
+	"startup_page.h"
+	"workplace_page.h"
+
+1641659499 c:\users\user\desktop\electronat\messages_log_panel.h
+
+1642186279 c:\users\user\desktop\electronat\edit_component_value.h
+	<winuser.h>
+
+1642186299 c:\users\user\desktop\electronat\choose_from_two_options.h
+
+1642191187 c:\users\user\desktop\electronat\functii_auxiliare.h
+
+1642197535 source:c:\users\andre\desktop\electronat\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+	<winuser.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<filesystem>
+	"startup_page.h"
+	"workplace_page.h"
+	"menu_selection.h"
+	"stare_table.h"
+	"new_project_name_reading_window.h"
+	"drawing_components.h"
+	"messages_panels_main_menu.h"
+	"open_save.h"
+	"change_color_panel.h"
+	"messages_log_panel.h"
+	"edit_component_value.h"
+	"zoom_rotate_fader_workplace.h"
+	"choose_from_two_options.h"
+	"functii_auxiliare.h"
+
+1642197256 c:\users\andre\desktop\electronat\startup_page.h
+	"open_save.h"
+	"functii_auxiliare.h"
+
+1642190639 c:\users\andre\desktop\electronat\open_save.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	"drawing_components.h"
+	"stare_table.h"
+
+1642186294 c:\users\andre\desktop\electronat\drawing_components.h
+	<graphics.h>
+	<windows.h>
+	<cmath>
+	<math.h>
+
+1642197415 c:\users\andre\desktop\electronat\stare_table.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	<bits/stdc++.h>
+	"drawing_components.h"
+	"functii_auxiliare.h"
+
+1642197769 c:\users\andre\desktop\electronat\functii_auxiliare.h
+
+1642198066 c:\users\andre\desktop\electronat\workplace_page.h
+	"drawing_components.h"
+	"stare_table.h"
+	"zoom_rotate_fader_workplace.h"
+	"functii_auxiliare.h"
+
+1641721335 c:\users\andre\desktop\electronat\zoom_rotate_fader_workplace.h
+
+1642186267 c:\users\andre\desktop\electronat\menu_selection.h
+
+1642186244 c:\users\andre\desktop\electronat\new_project_name_reading_window.h
+	<winuser.h>
+
+1642186249 c:\users\andre\desktop\electronat\messages_panels_main_menu.h
+	<windows.h>
+
+1642186306 c:\users\andre\desktop\electronat\change_color_panel.h
+	"startup_page.h"
+	"workplace_page.h"
+
+1641659499 c:\users\andre\desktop\electronat\messages_log_panel.h
+
+1642186279 c:\users\andre\desktop\electronat\edit_component_value.h
+	<winuser.h>
+
+1642186299 c:\users\andre\desktop\electronat\choose_from_two_options.h
+
+1642197535 source:c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+	<winuser.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<filesystem>
+	"startup_page.h"
+	"workplace_page.h"
+	"menu_selection.h"
+	"stare_table.h"
+	"new_project_name_reading_window.h"
+	"drawing_components.h"
+	"messages_panels_main_menu.h"
+	"open_save.h"
+	"change_color_panel.h"
+	"messages_log_panel.h"
+	"edit_component_value.h"
+	"zoom_rotate_fader_workplace.h"
+	"choose_from_two_options.h"
+	"functii_auxiliare.h"
+
+1642197256 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\startup_page.h
+	"open_save.h"
+	"functii_auxiliare.h"
+
+1642190639 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\open_save.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	"drawing_components.h"
+	"stare_table.h"
+
+1642186294 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\drawing_components.h
+	<graphics.h>
+	<windows.h>
+	<cmath>
+	<math.h>
+
+1642197415 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\stare_table.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	<bits/stdc++.h>
+	"drawing_components.h"
+	"functii_auxiliare.h"
+
+1642197769 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\functii_auxiliare.h
+
+1642197028 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\workplace_page.h
+	"drawing_components.h"
+	"stare_table.h"
+	"zoom_rotate_fader_workplace.h"
+	"functii_auxiliare.h"
+
+1641721335 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\zoom_rotate_fader_workplace.h
+
+1642186267 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\menu_selection.h
+
+1642186244 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\new_project_name_reading_window.h
+	<winuser.h>
+
+1642186249 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\messages_panels_main_menu.h
+	<windows.h>
+
+1642186306 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\change_color_panel.h
+	"startup_page.h"
+	"workplace_page.h"
+
+1641659499 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\messages_log_panel.h
+
+1642186279 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\edit_component_value.h
+	<winuser.h>
+
+1642186299 c:\users\user\downloads\1e2_tudorilade_cerbuandreimihnea (1)\electronat\choose_from_two_options.h
+
+1642197769 d:\electron\electronat\functii_auxiliare.h
+
+1642201135 source:c:\users\andrei - mihnea\desktop\electronat\main.cpp
+	<iostream>
+	<graphics.h>
+	<string.h>
+	<winuser.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<filesystem>
+	"startup_page.h"
+	"workplace_page.h"
+	"menu_selection.h"
+	"stare_table.h"
+	"new_project_name_reading_window.h"
+	"drawing_components.h"
+	"messages_panels_main_menu.h"
+	"open_save.h"
+	"change_color_panel.h"
+	"messages_log_panel.h"
+	"edit_component_value.h"
+	"zoom_rotate_fader_workplace.h"
+	"choose_from_two_options.h"
+	"functii_auxiliare.h"
+
+1642200856 c:\users\andrei - mihnea\desktop\electronat\startup_page.h
+	"open_save.h"
+	"functii_auxiliare.h"
+
+1642194239 c:\users\andrei - mihnea\desktop\electronat\open_save.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	"drawing_components.h"
+	"stare_table.h"
+
+1642189894 c:\users\andrei - mihnea\desktop\electronat\drawing_components.h
+	<graphics.h>
+	<windows.h>
+	<cmath>
+	<math.h>
+
+1642201015 c:\users\andrei - mihnea\desktop\electronat\stare_table.h
+	<vector>
+	<stack>
+	<conio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<filesystem>
+	<bits/stdc++.h>
+	"drawing_components.h"
+	"functii_auxiliare.h"
+
+1642201369 c:\users\andrei - mihnea\desktop\electronat\functii_auxiliare.h
+
+1642201666 c:\users\andrei - mihnea\desktop\electronat\workplace_page.h
+	"drawing_components.h"
+	"stare_table.h"
+	"zoom_rotate_fader_workplace.h"
+	"functii_auxiliare.h"
+
+1641724935 c:\users\andrei - mihnea\desktop\electronat\zoom_rotate_fader_workplace.h
+
+1642189867 c:\users\andrei - mihnea\desktop\electronat\menu_selection.h
+
+1642189844 c:\users\andrei - mihnea\desktop\electronat\new_project_name_reading_window.h
+	<winuser.h>
+
+1642189849 c:\users\andrei - mihnea\desktop\electronat\messages_panels_main_menu.h
+	<windows.h>
+
+1642189906 c:\users\andrei - mihnea\desktop\electronat\change_color_panel.h
+	"startup_page.h"
+	"workplace_page.h"
+
+1641663099 c:\users\andrei - mihnea\desktop\electronat\messages_log_panel.h
+
+1642189879 c:\users\andrei - mihnea\desktop\electronat\edit_component_value.h
+	<winuser.h>
+
+1642189899 c:\users\andrei - mihnea\desktop\electronat\choose_from_two_options.h
+

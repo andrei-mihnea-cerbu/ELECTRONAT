@@ -1,0 +1,256 @@
+<link rel="stylesheet" href="static/CSS/style.css">
+
+<div class="body">
+    <div class="b-title">
+        ElectronAT
+    </div>
+    <div class="intro" id="intro-id">
+        <p class="par">
+            Acest proiect isi propune sa permita utilizatorului sa deseneze scheme electronice practice, conform indicatiilor oferite la seminar. Realizarea proiectului
+            a fost una plina de provocari, logica programului devenind foarte interesant de implementat. Scopul nostru a fost sa gandim un program
+            scalabil, care poate fi usor de intretinut si intuitiv de utilizat pentru user!
+        </p>
+        <p class="par">
+            In cele ce urmeaza, ne propunem sa prezentam functionalitatie principale ale programului si in ce mod poate fi folosit.
+        </p>
+    </div>
+    <p class="par copyright">
+        Proiectul a fost realizat cu placere de: 
+                                <ul class="copyright-ul">
+                                    <li>Andrei Mihnea Cerbu</li>
+                                    <li>
+                                        Tudor Ilade
+                                    </li>
+                                    </li>
+                                </ul>
+    </p>
+    <div class="first-panel" id="first-par">
+        <div class="par" id="par12">
+            <h4>Panoul principal</h4>
+            O data ce programul este lansat, panoul principal va fi primul care va aparea, ce va face posibila selectia urmatoarelor actiuni:
+            <ol>
+            <li class="list-obj">Creaza nou proiect</li>
+            <li class="list-obj">Deschide un proiect existent</li>
+            <li class="list-obj"> Info</li>
+            <li class="list-obj">Inchidere</li> 
+            </ol>
+            <p><b><i>1) Creaza nou proiect</i></b></p>
+            <p>
+                Utilizatorul poate opta pentru a crea un nou proiect, prin apasarea menu ului din partea stanga sus. In momentul in care acesta va fi selectat,
+                o casuta de dialog va fi aruncata care va cere drept input numele fisierului. Acest nume va fi preluat de catre program si se va crea un fisier binar 
+                de tipul .AT cu numele dat. 
+            </p>
+            <p><b><i>2) Deschide un proiect </i></b></p>
+            <p>
+                Utilizatorul poate deschide un fisier de tip .AT deja existent. In momentul citirii, se va face o scurta verificare a integritatii fisierului
+                inainte de a se putea procesa informatia.  
+            </p>
+            <p><b><i>3) Info </i></b></p>
+            <p>
+                Pentru a citi mai multe despre modul de functionare a programului, se poate consulta pagina web aferenta prin selectarea panoului 3. 
+            </p>
+            <p><b><i>4) Iesire </i></b></p>
+            <p>
+                Ultimul panou, desenat cu un X, este utilizat pentru iesirea din program.
+            </p>
+        </div>
+        <div class="img">
+            <img src="static/IMG/main-menu.png" alt="main_menu" class="img_f">
+        </div>
+        
+    </div>
+    <div class="first-panel" id="second">
+        <div class="intro"></div>
+        <div class="par" id="second-par">
+            <h4>Masa de lucru</h4>
+           <p>Dupa crearea unui nou proiect sau deschiderea unuia existent, user-ul va fi trimis catre masa de lucru, unde poate efectua urmatoarele operatii:</p>
+            <ol>
+            <li class="list-obj">Desenare componenta</li>
+            <li class="list-obj">Mutare componenta</li>
+            <li class="list-obj"> Stergere componenta</li>
+            <li class="list-obj"> Rotire si zoom in/out pe componenta</li>
+            <li class="list-obj"> Deseneare legatura</li>
+            <li class="list-obj"> Stergere legatura</li>
+            <li class="list-obj"> Selectare tip de legatura</li>
+            <li class="list-obj"> Verificare conectivitatea circuitului</li>
+            <li class="list-obj">Salvarea proiectului</li>
+            <li class="list-obj"> Deschiderea unui alt proiect</li>
+            <li class="list-obj"> Undo/Redo</li> 
+            <li class="list-obj">Aprinde becul</li>
+            </ol>
+            
+        </div>
+        <div class="img">
+            <img src="static/IMG/WORK-TABLE.png" alt="main_menu" class="img_f">
+        </div>
+        
+    </div>
+    <div class="intro" id="sdss"></div>
+    <div class="first-panel panel" id="c1">
+        <p><b><i>1) Desenare componenta</i></b></p>
+            <p>
+                Pentru a putea amplasa o componenta pe tabla, utilizatorul trebuie sa selecteze o componenta din panoul din partea stanga. Odata selectata aceasta componenta,
+                utilizatorul poate amplasa piesa in chenarul verde, ce reprezinta masa de lucru. Daca se va face click in afara chenarului, va fi informat in casuta de log
+                ca acesta nu poate sa depaseasca limitele masei de lucru. <br>
+                Daca se face click peste o componenta deja existenta, utilizatorul va fi instiintat despre faptul ca nu va putea amplasa o piesa peste
+                una deja existenta, tot prin casuta de log, iar piesa se va redesena la ultima pozitie existenta.
+            </p>
+            <p><b><i>2) Mutare componenta </i></b></p>
+            <p>
+                Mutarea componentei pe masa de lucru se face prin selectarea componentei dorite de pe tabla prin click stanga, ce va permite mutarea oriunde in limitele chenarului
+                verde. Daca se va merge cu cursorul in afara chenarului verde, utilizatrul va fi informat ca a depasit limitele masei de lucru, iar componenta se va redesena
+                la ultima sa pozitie.(cea dinainte de click)
+            </p>
+            <p><b><i>3) Stergere componenta </i></b></p>
+            <p>
+               Stergerea unei componente de pe masa de lucru se face prin selectarea actiunii specifice din panoul din dreapta (Delete component). Odata functionalitatea activata,
+               utilizatorul va trebui sa selecteze de pe tabla piesa ce se doreste a fi stearsa.<br>
+               Daca aceasta componenta are si legaturi care ies sau intra, acestea vor fi sterse o data cu stergerea componentei.Daca se va face click intr-un loc unde nu este nicio componenta,
+               si nici un menu nu a fost selectat, nu se va intampla nimic. 
+            </p>
+            <p><b><i>4) Rotire si zoom in/out pe componenta </i></b></p>
+            <p>
+                Rotirea si zoom in/out pot fi activate prin selectarea casutei aferenta din panoul din dreapta. Odata ce se activeaza aceasta functionalitate, utilizatorul trebuie sa 
+                aleaga de pe masa piesa care se doreste a fi rotita sau micsorata/marita. Daca nu se va selecta nimic, nimic nu se va intampla. Se va astepta urmatoarea comanda.
+                <br>
+                O data ce componenta este selectata, in partea dreapta jos vor aparea doua glisatoare, unul responsabil pentru rotire la 360 G, iar celalalt pentru micsorare/marire.
+                In functie de preferinta, se selecteaza glisatorul si se gliseaza sus/jos. Pentru ca actiunile sa fie aplicate componentei, va fi nevoie sa se apese butonul "Aplica modificarile"
+                de sub glisator.
+            </p>
+        </div>
+        <!-- <div class="img">
+            <img src="static/IMG/main-menu.png" alt="main_menu" class="img_f">
+        </div> -->
+    </div>
+    <div class="intro"></div>
+    <div class="panel first-panel" id="c2">
+        <p><b><i>5) Desenarea legaturii</i></b></p>
+            <p>
+                Desenarea legaturii se face prin selectarea unui nod al unei componente, care se doreste a fi legata de o alta componenta. O data facuta selectia,
+                legatura va incepe sa urmareasca cursorul. 
+                Daca cursorul merge in afara tablei de lucru, legatura se va pierde, fiind nevoita reselectarea nodului.
+                <p>
+                Pentru a se face conexiunea cu o alta componenta, este nevoie sa se faca click pe nodul celeilalte componente. Daca click-ul s-a facut cu succes pe nod,
+                cele doua componente vor fi conectate.
+                </p>
+                <p>
+                Dintr-un nod pot pleca/intra o infinitate de legaturi. Nu exista restrictii.
+                </p>
+            </p>
+            <p><b><i>6) Mutare componenta </i></b></p>
+            <p>
+                Mutarea componentei pe masa de lucru se face prin selectarea componentei dorite de pe tabla prin click stanga, ce va permite mutarea oriunde in limitele chenarului
+                verde. Daca se va merge cu cursorul in afara chenarului verde, utilizatrul va fi informat ca a depasit limitele masei de lucru, iar componenta se va redesena
+                la ultima sa pozitie.(cea dinainte de click)
+            </p>
+            <p><b><i>7) Stergere componenta </i></b></p>
+            <p>
+               Stergerea unei componente de pe masa de lucru se face prin selectarea actiunii specifice din panoul din dreapta (Delete component). Odata functionalitatea activata,
+               utilizatorul va trebui sa selecteze de pe tabla piesa ce se doreste a fi stearsa.<br>
+               Daca aceasta componenta are si legaturi care ies sau intra, acestea vor fi sterse o data cu stergerea componentei.Daca se va face click intr-un loc unde nu este nicio componenta,
+               si nici un menu nu a fost selectat, nu se va intampla nimic. 
+            </p>
+            <p><b><i>8) Rotire si zoom in/out pe componenta </i></b></p>
+            <p>
+                Rotirea si zoom in/out pot fi activate prin selectarea casutei aferenta din panoul din dreapta. Odata ce se activeaza aceasta functionalitate, utilizatorul trebuie sa 
+                aleaga de pe masa piesa care se doreste a fi rotita sau micsorata/marita. Daca nu se va selecta nimic, nimic nu se va intampla. Se va astepta urmatoarea comanda.
+                <br>
+                O data ce componenta este selectata, in partea dreapta jos vor aparea doua glisatoare, unul responsabil pentru rotire la 360 G, iar celalalt pentru micsorare/marire.
+                In functie de preferinta, se selecteaza glisatorul si se gliseaza sus/jos. Pentru ca actiunile sa fie aplicate componentei, va fi nevoie sa se apese butonul "Aplica modificarile"
+                de sub glisator.
+            </p>
+        </div>
+        <!-- <div class="img">
+            <img src="static/IMG/main-menu.png" alt="main_menu" class="img_f">
+        </div> -->
+    </div>
+    <div class="intro"></div>
+    <div class="first-panel panel" id="c3">
+        <p><b><i>9) Salvarea proiectului</i></b></p>
+            <p>
+                Functionalitatea "Save" de pe masa de lucru ofera posibilitatea user-ului sa poata 
+                salva progresul realizat in crearea schemelor electrice dorite. Aceasta functionalitate a fost 
+                implementata cu ajutorul fisierelor binare, care vor stoca informatiile fiecarei componente
+                de pe tabla. Fisierul va fi de tip .AT .
+                    Fisierele vor fi salvate in directorul /Projects din root-ul proiectului.
+                    Daca acest director nu exista, el va fi creat.
+                <p>
+                    Daca se doreste sa se salveze proiectul in alt folder decat cel predefinit, el poate opta pentru
+                    functionalitatea "Save as" care ii a permite sa isi aleaga un director unde sa isi salveze progresul.
+                </p>
+             
+            </p>
+            <p><b><i>10) Deschiderea unui alt proiect</i></b></p>
+            <p>
+                Utilizatorul poate sa deschida un proiect la care a lucrat si sa isi continue dezvoltarea circuitului dorit.
+                Se poate deschide orice fisier de tip .AT care respecta cateva conditii de integritate. Alte fisiere, care nu sunt de tipul
+                    .AT, nu vor fi deschise, o eroare fiind aruncata.
+                
+                <p>Fisierul se poate afla oriunde pe device, fiind permisa navigarea cate fisierul target pentru a putea fi deschis.</p>
+            </p>
+            <p><b><i>11) Undo/Redo </i></b></p>
+            <p>
+               Undo/Redo reprezinta o functionalitate utilizata de orice user/programator, fiind implementata nativ 
+               in majoritatea sistemelor de operare comercializate. O astfel de functionalitate este implementata
+               si in proiectul nostru.
+               <p>Undo/Redo permite revenire la o stare anterioara (sau succesoare dupa caz), daca se doreste acest lucru 
+                   prin actionarea butonului de UNDO. Daca userul doreste totusi sa revina la starea la care a fost inainte
+                   de aplicarea UNDO-ului, acesta poate prin apasarea butonului de REDO, care revine pana la ultima stare,
+                   dinainte de UNDO (sau la o stare intermediara, daca au fost aplicate mai multe UNDO uri succesive).
+        
+               </p>
+            </p>
+            </p>
+        </div>
+        <!-- <div class="img">
+            <img src="static/IMG/main-menu.png" alt="main_menu" class="img_f">
+        </div> -->
+    </div>
+
+    <div class="intro"></div>
+    <div class="first-panel panel" id="c5">
+        <div class="wrapper">
+            <div class="bulb-div">
+                <h3><i>Aprinde becul !</i></h3>
+                <img src="static/IMG/Untitled.png" alt="bulb" class="bulb">
+            </div>
+        </div>
+        <div class="light-bulb">
+            <p>Aprinde becul este un mic joc implementat de catre noi de care utilizatorul se poate bucura!</p>
+                <p>
+                    Acest joc presupune crearea unui "Circuit Fericit" format dintr-un numar specific de componente si tipuri de componente,
+                    conectate intre ele (nu conteaza ordinea) care va putea aprinde un bec!
+                </p>
+                <p style="display:table-cell;">Acesta trebuie sa contina:
+                    <div class="wrapper-ul">
+                    <ul class="unordered">
+                        <li>2 surse</li>
+                        <li >2 rezistori</li>
+                        <li >1 voltmetru</li>
+                        <li >1 ampermetru</li>
+                        <li >1 dioda</li>
+                        <li >1 tranzistor</li>
+                        <li >1 siguranta</li>
+                        <li >1 capacitor</li>
+                        <li >1 bec</li>
+                    </ul>
+
+
+           
+                    <img src="static/IMG/APRINDE-BECU.png" alt="main_menu" class="img_f" id="bulb_img">
+                    
+                    </div>
+            </p>
+        
+        </div>
+    
+</div>
+<div class="footer">
+       
+</div>
+</div>
+
+
+<script>
+    
+</script>
